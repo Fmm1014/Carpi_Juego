@@ -1,0 +1,37 @@
+{
+	"name": "Creditos",
+	"plugin-id": "Sprite",
+	"sid": 338935964874302,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 506,
+						"height": 21,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4089696,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 409549235086862,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

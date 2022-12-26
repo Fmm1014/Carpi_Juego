@@ -1,0 +1,142 @@
+{
+	"name": "Hoja de eventos 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 106106408281281
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón",
+					"sid": 694563327168698
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Titulo",
+					"sid": 645909577477154,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Botón",
+					"sid": 789806041683543
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Creditos",
+					"sid": 484965218802961,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Panel",
+					"sid": 754469733862974,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Jugar",
+					"sid": 805963809876708,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 913894255754715,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite2",
+					"sid": 996061375714200,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Texto2",
+					"sid": 497210108213859,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 722504116920220,
+					"parameters": {
+						"seconds": "2"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite2",
+					"sid": 398917118748681,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite3",
+					"sid": 152719829233321,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Texto2",
+					"sid": 899116172387848,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Texto",
+					"sid": 710614441688628,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 601781125011333,
+					"parameters": {
+						"seconds": "2"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Botón2",
+					"sid": 396729631902902,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 819241745256014
+		}
+	],
+	"sid": 919332808209433
+}
