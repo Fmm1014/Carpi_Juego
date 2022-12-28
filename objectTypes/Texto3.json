@@ -1,0 +1,37 @@
+{
+	"name": "Texto3",
+	"plugin-id": "Sprite",
+	"sid": 196936944204996,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 818,
+						"height": 420,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2494486,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 977353592270523,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,202 @@
+{
+	"name": "Hoja de eventos 3",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 695826396395248
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "Carpi",
+					"sid": 425927093612512,
+					"parameters": {
+						"frame-number": "1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Carpi",
+					"sid": 969712983338501,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 410100263126654,
+					"parameters": {
+						"seconds": "3"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Opciones1",
+					"sid": 604972785535230,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Opcion1A",
+					"sid": 214848905744965,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 929012552575265
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Opcion1A",
+					"sid": 734835321529532
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "Carpi",
+					"sid": 109118965304325,
+					"parameters": {
+						"frame-number": "1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Fallo",
+					"sid": 816246456371349,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 751478802943440,
+					"parameters": {
+						"seconds": "1.5"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Fallo",
+					"sid": 103700645876737,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 335604923261613
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Opcion1B",
+					"sid": 611233198833271
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "Carpi",
+					"sid": 174314683574332,
+					"parameters": {
+						"frame-number": "1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Fallo",
+					"sid": 820135963689952,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 483228271124746,
+					"parameters": {
+						"seconds": "1.5"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Fallo",
+					"sid": 780642940410988,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 621449010911204
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Opcion1C",
+					"sid": 210149938268747
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "Carpi",
+					"sid": 928458059835649,
+					"parameters": {
+						"frame-number": "0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Acierto",
+					"sid": 341568743276087,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 162017899967756,
+					"parameters": {
+						"seconds": "2"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Acierto",
+					"sid": 841049145979614,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 138113174240806,
+					"parameters": {
+						"layout": "Escena 4"
+					}
+				}
+			],
+			"sid": 873048214494209
+		}
+	],
+	"sid": 258382556925059
+}

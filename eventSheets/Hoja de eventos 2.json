@@ -1,5 +1,56 @@
 {
 	"name": "Hoja de eventos 2",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 333075778786176
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 320109871022403,
+					"parameters": {
+						"seconds": "5"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Botón2",
+					"sid": 627002581504165,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 916623200187225
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón2",
+					"sid": 357588561470051
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 142404416591107,
+					"parameters": {
+						"layout": "Escena 3"
+					}
+				}
+			],
+			"sid": 460660243027390
+		}
+	],
 	"sid": 334968901497540
 }
