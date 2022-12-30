@@ -1,5 +1,234 @@
 {
 	"name": "Hoja de eventos 5",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 509530694831833
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 849153065785561,
+					"parameters": {
+						"seconds": "1"
+					}
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "Carpi",
+					"sid": 338653652629696,
+					"parameters": {
+						"frame-number": "0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Carpi",
+					"sid": 254687296272948,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Texto6",
+					"sid": 797508458664427,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 105121914025431,
+					"parameters": {
+						"seconds": "4"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Tutorial4",
+					"sid": 131003199884098,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 143284684956178,
+					"parameters": {
+						"seconds": "1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Botón3",
+					"sid": 782319320261237,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 355726544073507
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón3",
+					"sid": 333207258259237
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Tutorial4",
+					"sid": 428252835445373,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Botón3",
+					"sid": 930251872247062,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Opciones2",
+					"sid": 214354240913610,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Botón4",
+					"sid": 768779024361177,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Botón5",
+					"sid": 100300992092329,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 517693810533590
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón4",
+					"sid": 376178841377928
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "Carpi",
+					"sid": 522636250060224,
+					"parameters": {
+						"frame-number": "1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Fallo",
+					"sid": 585822189106211,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 526455180731919,
+					"parameters": {
+						"seconds": "1.5"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Fallo",
+					"sid": 348725947725648,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 622628433669193
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón5",
+					"sid": 882156801291598
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "Carpi",
+					"sid": 146801756360057,
+					"parameters": {
+						"frame-number": "0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Acierto",
+					"sid": 287599986918665,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 728599925833149,
+					"parameters": {
+						"seconds": "2"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Acierto",
+					"sid": 475086461420010,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 691082081470444,
+					"parameters": {
+						"layout": "Escena 6"
+					}
+				}
+			],
+			"sid": 803749442205852
+		}
+	],
 	"sid": 432889375198368
 }

@@ -52,7 +52,14 @@
 			"Opciones",
 			"Botón4",
 			"Botón5",
-			"Texto5"
+			"Texto5",
+			"Texto6",
+			"Tutorial3",
+			"Tutorial4",
+			"Opciones2",
+			"Sprite2",
+			"Texto7",
+			"Botón6"
 		],
 		"subfolders": []
 	},
@@ -68,7 +75,8 @@
 			"Escena 2",
 			"Escena 3",
 			"Escena 4",
-			"Escena 5"
+			"Escena 5",
+			"Escena 6"
 		],
 		"subfolders": []
 	},
@@ -78,7 +86,8 @@
 			"Hoja de eventos 2",
 			"Hoja de eventos 3",
 			"Hoja de eventos 4",
-			"Hoja de eventos 5"
+			"Hoja de eventos 5",
+			"Hoja de eventos 6"
 		],
 		"subfolders": []
 	},
