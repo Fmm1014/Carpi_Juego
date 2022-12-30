@@ -44,7 +44,15 @@
 			"Opcion1B",
 			"Opcion1C",
 			"Acierto",
-			"Fallo"
+			"Fallo",
+			"Texto4",
+			"Tutorial2",
+			"Ejemplo",
+			"Botón3",
+			"Opciones",
+			"Botón4",
+			"Botón5",
+			"Texto5"
 		],
 		"subfolders": []
 	},
@@ -59,7 +67,8 @@
 			"Escena 1",
 			"Escena 2",
 			"Escena 3",
-			"Escena 4"
+			"Escena 4",
+			"Escena 5"
 		],
 		"subfolders": []
 	},
@@ -68,7 +77,8 @@
 			"Hoja de eventos 1",
 			"Hoja de eventos 2",
 			"Hoja de eventos 3",
-			"Hoja de eventos 4"
+			"Hoja de eventos 4",
+			"Hoja de eventos 5"
 		],
 		"subfolders": []
 	},

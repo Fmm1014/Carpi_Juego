@@ -50,6 +50,30 @@
 					"parameters": {
 						"visibility": "visible"
 					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Opcion1A",
+					"sid": 216302500613875,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Opcion1B",
+					"sid": 453057225564678,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Opcion1C",
+					"sid": 726204442528429,
+					"parameters": {
+						"visibility": "visible"
+					}
 				}
 			],
 			"sid": 929012552575265
