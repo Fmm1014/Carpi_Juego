@@ -1,7 +1,7 @@
 {
-	"name": "Sprite2",
+	"name": "Texto6",
 	"plugin-id": "Sprite",
-	"sid": 975586470872944,
+	"sid": 191491603463892,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,19 +11,19 @@
 			{
 				"frames": [
 					{
-						"width": 200,
-						"height": 200,
+						"width": 819,
+						"height": 441,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3844852,
+						"imageSpriteId": 8583551,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 250895510821423,
+				"sid": 835887110388394,
 				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,

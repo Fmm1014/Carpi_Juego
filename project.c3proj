@@ -27,9 +27,6 @@
 	"objectTypes": {
 		"items": [
 			"Sprite",
-			"Sprite2",
-			"Sprite3",
-			"Sprite4",
 			"Fondo",
 			"Panel",
 			"Jugar",
@@ -38,7 +35,31 @@
 			"Botón",
 			"Texto",
 			"Texto2",
-			"Botón2"
+			"Botón2",
+			"Carpi",
+			"Tutorial",
+			"Texto3",
+			"Opciones1",
+			"Opcion1A",
+			"Opcion1B",
+			"Opcion1C",
+			"Acierto",
+			"Fallo",
+			"Texto4",
+			"Tutorial2",
+			"Ejemplo",
+			"Botón3",
+			"Opciones",
+			"Botón4",
+			"Botón5",
+			"Texto5",
+			"Texto6",
+			"Tutorial3",
+			"Tutorial4",
+			"Opciones2",
+			"Sprite2",
+			"Texto7",
+			"Botón6"
 		],
 		"subfolders": []
 	},
@@ -50,13 +71,23 @@
 	},
 	"layouts": {
 		"items": [
-			"Escena 1"
+			"Escena 1",
+			"Escena 2",
+			"Escena 3",
+			"Escena 4",
+			"Escena 5",
+			"Escena 6"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Hoja de eventos 1"
+			"Hoja de eventos 1",
+			"Hoja de eventos 2",
+			"Hoja de eventos 3",
+			"Hoja de eventos 4",
+			"Hoja de eventos 5",
+			"Hoja de eventos 6"
 		],
 		"subfolders": []
 	},

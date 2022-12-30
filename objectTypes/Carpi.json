@@ -1,7 +1,7 @@
 {
-	"name": "Sprite2",
+	"name": "Carpi",
 	"plugin-id": "Sprite",
-	"sid": 975586470872944,
+	"sid": 713035012628735,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,19 +11,31 @@
 			{
 				"frames": [
 					{
-						"width": 200,
-						"height": 200,
+						"width": 725,
+						"height": 457,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3844852,
+						"imageSpriteId": 3067875,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 725,
+						"height": 457,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6096998,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 250895510821423,
+				"sid": 405215327194789,
 				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,

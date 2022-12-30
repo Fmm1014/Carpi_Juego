@@ -18,6 +18,14 @@
 			],
 			"actions": [
 				{
+					"id": "set-animation-frame",
+					"objectClass": "Carpi",
+					"sid": 853978278750418,
+					"parameters": {
+						"frame-number": "0"
+					}
+				},
+				{
 					"id": "set-visible",
 					"objectClass": "Titulo",
 					"sid": 645909577477154,
@@ -57,15 +65,15 @@
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 913894255754715,
+					"sid": 909402902335734,
 					"parameters": {
-						"seconds": "1.0"
+						"seconds": "0.5"
 					}
 				},
 				{
 					"id": "set-visible",
-					"objectClass": "Sprite2",
-					"sid": 996061375714200,
+					"objectClass": "Carpi",
+					"sid": 631711496370463,
 					"parameters": {
 						"visibility": "visible"
 					}
@@ -87,19 +95,11 @@
 					}
 				},
 				{
-					"id": "set-visible",
-					"objectClass": "Sprite2",
-					"sid": 398917118748681,
+					"id": "set-animation-frame",
+					"objectClass": "Carpi",
+					"sid": 840434366128033,
 					"parameters": {
-						"visibility": "toggle"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "Sprite3",
-					"sid": 152719829233321,
-					"parameters": {
-						"visibility": "visible"
+						"frame-number": "1"
 					}
 				},
 				{
@@ -136,6 +136,51 @@
 				}
 			],
 			"sid": 819241745256014
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón2",
+					"sid": 696423121437886
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Botón2",
+					"sid": 327733731287725,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Texto",
+					"sid": 498935924500884,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 242765193577553,
+					"parameters": {
+						"which": "next"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Carpi",
+					"sid": 569900881849429,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 512261293968231
 		}
 	],
 	"sid": 919332808209433

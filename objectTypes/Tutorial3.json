@@ -1,7 +1,7 @@
 {
-	"name": "Sprite4",
+	"name": "Tutorial3",
 	"plugin-id": "Sprite",
-	"sid": 319139038389750,
+	"sid": 192816338428812,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,19 +11,19 @@
 			{
 				"frames": [
 					{
-						"width": 200,
-						"height": 200,
+						"width": 781,
+						"height": 173,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1883246,
+						"imageSpriteId": 593889,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 160899004442575,
+				"sid": 864331890872314,
 				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,

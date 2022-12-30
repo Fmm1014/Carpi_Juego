@@ -1,7 +1,7 @@
 {
-	"name": "Sprite2",
+	"name": "Fallo",
 	"plugin-id": "Sprite",
-	"sid": 975586470872944,
+	"sid": 189408366953392,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,19 +11,19 @@
 			{
 				"frames": [
 					{
-						"width": 200,
-						"height": 200,
+						"width": 532,
+						"height": 54,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3844852,
+						"imageSpriteId": 7870329,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 250895510821423,
+				"sid": 689814339328347,
 				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,
